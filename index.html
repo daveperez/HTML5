@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sofia's Party-Room</title>
+	<meta charset="utf-8" >
+	<link rel="stylesheet" type="text/css" href="css/estilo.css" >
+</head>
+<body>
+	<h1>Erasmus Sofia 2012-13 !</h1>
+	<div id="cabecera">
+		Uníos a la lista de correo tras nuestro maravilloso años juntos.
+		Seguiremos en contacto y compartiremos nuestras fotos.
+	</div>
+
+	<div class="scrollable">
+		<div class="items">
+			<img src="src/partyroom1_opt.jpg" alt="Una de nuestras primeras fotos en Sofia" />
+			<img src="src/alvaroinrila_opt.jpg" alt="Alvaro disfruta del monasterio de Rila" />
+			<img src="src/tizzyfrizzing_opt.jpg" alt="Tizzy se congela en nuestra visita a Estambul" />
+			<img src="src/tizzyandanaingranbazar_opt.jpg" alt="De compras por el Gran Bazar" />
+			<img src="src/lucainthefrigde_opt.jpg" alt="Luca se mete en su refugio invernal" />
+			<img src="src/polishandfrench_opt.jpg" alt="Las polacas y francesas en el muro de la fortaleza" />
+			<img src="src/comingbackfromvarna_opt.jpg" alt="No pudieron aguantar despiertos" />
+		</div>
+	</div>
+
+	<h2>
+		Noticias:
+	</h2>
+	
+	<ul>
+		<li type="circle"> Nueva lista de correo creada. </li>
+		<li type="circle"> Próximo evento para reunirnos en Barcelona.  
+				<a href="https://www.facebook.com/events/194170767424159/"> UNETE! </a></li>
+		<li type="circle"> Tras unirte comparte tus fotos con nostros. Así podremos verlas todos!</li>
+	</ul>
+	
+	<h2>
+		Unete a la lista de correo:
+	</h2>
+	
+	<form id="formulario" action="mailto:dperezj_87@hotmail.com" enctype="text/plain"> 
+		Nombre:<br><input type="text" name="fname" required><br>
+		Apellido:<br> <input type="text" name="lname" required><br>
+		E-mail: <br><input type="email" name="email" autocomplete="off" required><br>
+		<input type="submit" value="Submit" />
+		<p>
+		Si el formulario no funciona perdone las molestias y pulse:
+		<button type="button" onclick="pulsado(this)">AQUI!</button>
+		</p>
+	</form>
+	
+	
+	<script src="javascript/codigo.js"></script>
+	
+	<footer> © 2012. Todos los derechos reservados </footer>
+	
+</body>
+</html>
+
